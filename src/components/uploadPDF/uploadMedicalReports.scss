@@ -1,0 +1,47 @@
+.upload-drop-zone {
+    border: 2px dashed #d0d5dd;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    background: #fafafa;
+  
+    &:hover {
+      background: #f5f7fa;
+    }
+  
+    .upload-icon {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  .file-list {
+    .file-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 12px;
+      border-radius: 8px;
+      background: #f9fafb;
+      margin-bottom: 8px;
+  
+      .file-size {
+        font-size: 12px;
+        color: #667085;
+      }
+  
+      .remove-btn {
+        background: transparent;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+        color: #667085;
+  
+        &:hover {
+          color: #d92d20;
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,219 @@
+/* ---------- LAYOUT ---------- */
+.physician-layout {
+    display: flex;
+    height: 100vh;
+    background: #f7f9fc;
+  }
+  
+  /* ---------- SIDEBAR ---------- */
+  /* .physician-sidebar {
+      width: 260px;
+      background: #ffffff;
+      border-right: 1px solid #e6ebf2;
+      padding: 0;
+    }
+  
+    .sidebar-logo {
+      padding: 18px 0;
+      text-align: center;
+      border-bottom: 1px solid #eef1f6;
+    }
+  
+  .sidebar-logo img {
+      height: 44px;
+  } */
+  
+  /* Section label (MENU / SUPPORT) */
+  .sidebar-section {
+      padding: 0 24px 6px 24px; /* 🔴 same left as items */
+      font-size: 11px;
+      font-weight: 600;
+      color: #98a2b3;
+      letter-spacing: 0.04em;
+    }
+    
+    
+    /* Menu item */
+    /* .sidebar-item {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 12px 18px;
+      margin: 2px 16px; 
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 500;
+      color: #344054;
+      text-decoration: none;
+    }
+    
+  .sidebar-item:hover {
+      background: #f5f7fb;
+  }
+  
+  .sidebar-item.active {
+      background: #f2efff;
+      color: #0392ce;
+      font-weight: 600;
+    }
+    
+  .sidebar-item .icon {
+      width: 22px;
+      height: 22px;
+      border-radius: 6px;
+      background-color: #eef2ff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .sidebar-icon.dashboard::before {
+      content: "● ●";
+      font-size: 8px;
+      letter-spacing: 2px;
+      color: #0392ce;
+    }
+    
+    .sidebar-icon.upload::before {
+      content: "↑";
+      font-size: 14px;
+      color: #667085;
+    }
+    
+    .sidebar-icon.assign::before {
+      content: "＋";
+      font-size: 14px;
+      color: #667085;
+    }
+    
+    .sidebar-icon.download::before {
+      content: "↓";
+      font-size: 14px;
+      color: #667085;
+    }
+    
+    .sidebar-icon.faq::before {
+      content: "?";
+      font-size: 14px;
+      color: #667085;
+    }
+    
+    .sidebar-icon.support::before {
+      content: "i";
+      font-size: 14px;
+      color: #667085;
+    } */
+  /* ---------- HEADER ---------- */
+  .physician-header {
+    height: 70px;
+    background: #ffffff;
+    border-bottom: 1px solid #e6ebf2;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  
+  .menu-btn {
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #f2f4f7;
+    padding: 8px 12px;
+    border-radius: 10px;
+    width: 320px;
+  }
+  
+  .search-box input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .bell {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-info img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+  }
+  
+  .user-info .name {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .user-info .role {
+    font-size: 12px;
+    color: #667085;
+  }
+  
+  /* ---------- CONTENT ---------- */
+  .physician-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .physician-content {
+    padding: 24px;
+    overflow-y: auto;
+  }
+  .user-dropdown {
+    position: relative;
+  }
+  
+  /* .dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .dropdown-item {
+    width: 100%;
+
+    text-align: left;
+    background: none;
+    border: none;
+    cursor: pointer;
+  } */
+
+  .navlink {
+    color: inherit;
+    text-decoration: none;
+  }
+  

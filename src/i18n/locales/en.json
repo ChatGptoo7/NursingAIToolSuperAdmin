@@ -1,0 +1,29 @@
+{
+    "menu.menu":"Menu",
+    "menu.dashboard": "Dashboard",
+    "menu.uploadReport": "Upload Report",
+    "menu.assignPhysician": "Assign Physician",
+    "menu.downloadReports": "Download Reports",
+    "menu.faqs": "FAQs",
+    "menu.support": "Support",
+  
+    "header.search": "Search...",
+    "header.welcome": "Welcome",
+  
+    "dashboard.totaladmin": "Total Admin",
+    "dashboard.totalnurses":"Total Nurses",
+     "dashboard.statOnTrack":"On Track",
+    "dashboard.statReceivedToday":"Received Today",
+
+
+    "table.reportId":"Report Id",
+    "table.patient":"Patient",
+    "table.type":"Type",
+    "table.assignedTo":"Assigned To",
+    "table.status":"Status",
+    "table.action":"Action",
+    "table.name":"Name",
+    "table.email":"Email",
+    "table.role":"Role"
+  }
+  

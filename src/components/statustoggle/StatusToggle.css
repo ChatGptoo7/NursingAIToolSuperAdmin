@@ -1,0 +1,54 @@
+.status-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Label */
+.status-label {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.status-label.on {
+  color: #0392CE;
+}
+
+.status-label.off {
+  color: #6b7280;
+}
+
+/* Toggle */
+.mini-toggle {
+  width: 36px;
+  height: 18px;
+  border-radius: 999px;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.25s ease;
+}
+
+.mini-toggle.on {
+  background-color: #0392CE;
+}
+
+.mini-toggle.off {
+  background-color: #d1d5db;
+}
+
+/* Knob */
+.mini-circle {
+  width: 14px;
+  height: 14px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: left 0.25s ease;
+}
+
+.mini-toggle.on .mini-circle {
+  left: 20px;
+}

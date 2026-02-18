@@ -1,0 +1,15 @@
+{
+    "menu.dashboard": "Panel",
+    "menu.uploadReport": "Subir informe",
+    "menu.assignPhysician": "Asignar médico",
+    "menu.downloadReports": "Descargar informes",
+    "menu.faqs": "Preguntas frecuentes",
+    "menu.support": "Soporte",
+  
+    "header.search": "Buscar...",
+    "header.welcome": "Bienvenido",
+  
+    "dashboard.overallcase": "Casos totales",
+    "dashboard.subtitle": "Cargar y rastrear pruebas diagnósticas"
+  }
+  

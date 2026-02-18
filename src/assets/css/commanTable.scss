@@ -1,0 +1,95 @@
+// my table
+.common_table{
+    border-radius: 10px !important;
+    border: 1px solid #E4E7EC;
+    .patient_user_cell{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        white-space: nowrap;
+        h4{
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+        .email{
+            color: #667085;
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+        .patient_user_text{
+            flex: 1;
+        }
+    }
+    .avatar{
+        background-color: #DDE9FF;
+        color: #0392CE;
+        width: 34px;
+        height: 34px;
+    }
+    .rdt_Table{
+        .rdt_TableHeadRow{
+            background-color: #F9FAFB;
+            border-bottom: 1px solid #fff;
+        }
+        .rdt_TableHead{
+            font-size: 12px;
+            font-weight: 500;
+            color: #667085;
+            letter-spacing: 0;
+            
+        }
+        .rdt_TableCell{
+            font-size: .875rem;
+            font-weight: 400;
+            letter-spacing: .0313rem;
+            color: #1D2939 !important;
+            padding-top: 8px;
+            padding-bottom: 8px;
+
+        }
+        .rdt_TableRow{
+            border-bottom: 1px solid #fff;
+            background-color: transparent;
+            &:last-child{
+                border-bottom: none;
+            }
+            &:hover{
+                background-color: unset;
+                outline: none;
+            }
+            &:nth-child(even){
+                background-color: #F9FAFB;
+            }
+        }
+        .td_flx{
+            h6{
+                font-size: .875rem;
+                color: #000;
+                margin-bottom: 0;
+            }
+        }
+        .sorting_icon{
+            margin-left: 6px;
+            flex-shrink: 0;
+        }
+        .rdt_TableCol_Sortable{
+            &:hover{
+                opacity: 1;
+            }
+        }
+        .rdt_TableCol{
+            white-space: nowrap;
+        }
+    }
+    .badge{
+        min-width: 5.25rem;
+        justify-content: center;
+    }
+}
+.rdt_Pagination{
+    border-top: none !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}

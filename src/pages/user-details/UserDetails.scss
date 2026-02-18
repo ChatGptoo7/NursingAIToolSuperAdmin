@@ -1,0 +1,44 @@
+.user-card {
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  background: #0d6efd33;
+  color: #0d6efd;
+  font-size: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-weight: bold;
+}
+
+.profile-detailav {
+  display: flex;
+  justify-content: center;
+
+ 
+
+}
+.profile-detailav img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.detail-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.detail-icon {
+  color: #0d6efd;
+  height: 20px;
+}
